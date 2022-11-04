@@ -1,0 +1,75 @@
+h1{
+   
+    color:black;
+    text-align: center;
+    font-size: medium;
+    border-color:2px solid blue;
+    
+    
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;  
+    height: 100%;
+    border:5px solid black;
+}
+
+.button{
+    float:right;
+    
+    height: 50px;
+    width: 100px;
+    background-color:burlywood;
+    border-radius: 15px;
+    font-size: medium;
+    cursor: pointer;
+    padding: 2px;
+    
+    
+  
+    
+
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position:fixed; /* Stay in place */
+    z-index: 1;/* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    padding-bottom: 50%;
+    /* overflow: auto;   */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2px;
+    /* border: 1px solid rgb(136, 136, 136); */
+    width: 75%;
+    height: auto;
+    
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
